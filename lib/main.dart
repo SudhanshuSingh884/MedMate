@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'MedMate',
       home: Text('data'),
+      // added by sudhanshu
     );
   }
 }
