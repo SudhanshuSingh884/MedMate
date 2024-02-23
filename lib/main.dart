@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medmate/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'MedMate',
-      home: Text('data'),
+      home: SplashScreen(),
     );
   }
 }
