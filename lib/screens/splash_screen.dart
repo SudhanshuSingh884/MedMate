@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:medmate/screens/home.dart';
+//import 'package:medmate/screens/home.dart';
+import 'package:medmate/screens/medicine_form.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -14,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => const HomeScreen()));
+          .push(MaterialPageRoute(builder: (context) => const MedicineForm()));
     });
   }
 
